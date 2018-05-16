@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178CB60020AC0B2B0080DC94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178CB5FF20AC0B2B0080DC94 /* AppDelegate.swift */; };
+		178CB60220AC0B2B0080DC94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178CB60120AC0B2B0080DC94 /* ViewController.swift */; };
+		178CB60520AC0B2B0080DC94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178CB60320AC0B2B0080DC94 /* Main.storyboard */; };
+		178CB60720AC0B2C0080DC94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178CB60620AC0B2C0080DC94 /* Assets.xcassets */; };
+		178CB60A20AC0B2C0080DC94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178CB60820AC0B2C0080DC94 /* LaunchScreen.storyboard */; };
+		17CE524220AC310D0011A199 /* pch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE524120AC310D0011A199 /* pch.swift */; };
+		17CE524420AC33E70011A199 /* UIColor+ ColorHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE524320AC33E70011A199 /* UIColor+ ColorHexString.swift */; };
+		17CE524620AC36C80011A199 /* String+notblank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE524520AC36C80011A199 /* String+notblank.swift */; };
+		33EEBB2753F44727FF37984E /* Pods_LYONE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDED2A369EF67DBFF40E169 /* Pods_LYONE.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		178CB5FC20AC0B2B0080DC94 /* LYONE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYONE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178CB5FF20AC0B2B0080DC94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		178CB60120AC0B2B0080DC94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		178CB60420AC0B2B0080DC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		178CB60620AC0B2C0080DC94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178CB60920AC0B2C0080DC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		178CB60B20AC0B2C0080DC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CE524120AC310D0011A199 /* pch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pch.swift; sourceTree = "<group>"; };
+		17CE524320AC33E70011A199 /* UIColor+ ColorHexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ ColorHexString.swift"; sourceTree = "<group>"; };
+		17CE524520AC36C80011A199 /* String+notblank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+notblank.swift"; sourceTree = "<group>"; };
+		6EDED2A369EF67DBFF40E169 /* Pods_LYONE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYONE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7586664C050F3656339FA535 /* Pods-LYONE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYONE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYONE/Pods-LYONE.debug.xcconfig"; sourceTree = "<group>"; };
+		E1EAA7E67E6E1D07B80593A7 /* Pods-LYONE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYONE.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYONE/Pods-LYONE.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178CB5F920AC0B2B0080DC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EEBB2753F44727FF37984E /* Pods_LYONE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178CB5F320AC0B2B0080DC94 = {
+			isa = PBXGroup;
+			children = (
+				178CB5FE20AC0B2B0080DC94 /* LYONE */,
+				178CB5FD20AC0B2B0080DC94 /* Products */,
+				50FD4EEC66C90B546B276C75 /* Pods */,
+				E4E92AA298F2E8532E6DDB8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		178CB5FD20AC0B2B0080DC94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178CB5FC20AC0B2B0080DC94 /* LYONE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178CB5FE20AC0B2B0080DC94 /* LYONE */ = {
+			isa = PBXGroup;
+			children = (
+				178CB5FF20AC0B2B0080DC94 /* AppDelegate.swift */,
+				178CB60120AC0B2B0080DC94 /* ViewController.swift */,
+				17CE524020AC30B70011A199 /* other */,
+				178CB60320AC0B2B0080DC94 /* Main.storyboard */,
+				178CB60620AC0B2C0080DC94 /* Assets.xcassets */,
+				178CB60820AC0B2C0080DC94 /* LaunchScreen.storyboard */,
+				178CB60B20AC0B2C0080DC94 /* Info.plist */,
+			);
+			path = LYONE;
+			sourceTree = "<group>";
+		};
+		17CE524020AC30B70011A199 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				17CE524120AC310D0011A199 /* pch.swift */,
+				17CE524320AC33E70011A199 /* UIColor+ ColorHexString.swift */,
+				17CE524520AC36C80011A199 /* String+notblank.swift */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		50FD4EEC66C90B546B276C75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7586664C050F3656339FA535 /* Pods-LYONE.debug.xcconfig */,
+				E1EAA7E67E6E1D07B80593A7 /* Pods-LYONE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4E92AA298F2E8532E6DDB8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EDED2A369EF67DBFF40E169 /* Pods_LYONE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178CB5FB20AC0B2B0080DC94 /* LYONE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178CB60E20AC0B2C0080DC94 /* Build configuration list for PBXNativeTarget "LYONE" */;
+			buildPhases = (
+				018A386A9F83837A09CCC4C1 /* [CP] Check Pods Manifest.lock */,
+				178CB5F820AC0B2B0080DC94 /* Sources */,
+				178CB5F920AC0B2B0080DC94 /* Frameworks */,
+				178CB5FA20AC0B2B0080DC94 /* Resources */,
+				665DBC3C59D54BE98C28C3FC /* [CP] Embed Pods Frameworks */,
+				C2E4CBD9314FEE3C449DBFD8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYONE;
+			productName = LYONE;
+			productReference = 178CB5FC20AC0B2B0080DC94 /* LYONE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178CB5F420AC0B2B0080DC94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "personal-zhangyunan";
+				TargetAttributes = {
+					178CB5FB20AC0B2B0080DC94 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 178CB5F720AC0B2B0080DC94 /* Build configuration list for PBXProject "LYONE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 178CB5F320AC0B2B0080DC94;
+			productRefGroup = 178CB5FD20AC0B2B0080DC94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178CB5FB20AC0B2B0080DC94 /* LYONE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178CB5FA20AC0B2B0080DC94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178CB60A20AC0B2C0080DC94 /* LaunchScreen.storyboard in Resources */,
+				178CB60720AC0B2C0080DC94 /* Assets.xcassets in Resources */,
+				178CB60520AC0B2B0080DC94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018A386A9F83837A09CCC4C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYONE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665DBC3C59D54BE98C28C3FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LYONE/Pods-LYONE-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYONE/Pods-LYONE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E4CBD9314FEE3C449DBFD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYONE/Pods-LYONE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178CB5F820AC0B2B0080DC94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178CB60220AC0B2B0080DC94 /* ViewController.swift in Sources */,
+				17CE524620AC36C80011A199 /* String+notblank.swift in Sources */,
+				17CE524420AC33E70011A199 /* UIColor+ ColorHexString.swift in Sources */,
+				178CB60020AC0B2B0080DC94 /* AppDelegate.swift in Sources */,
+				17CE524220AC310D0011A199 /* pch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		178CB60320AC0B2B0080DC94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178CB60420AC0B2B0080DC94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		178CB60820AC0B2C0080DC94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178CB60920AC0B2C0080DC94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		178CB60C20AC0B2C0080DC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		178CB60D20AC0B2C0080DC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178CB60F20AC0B2C0080DC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7586664C050F3656339FA535 /* Pods-LYONE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8J2CWPZLE;
+				INFOPLIST_FILE = LYONE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = None.LYONE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178CB61020AC0B2C0080DC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EAA7E67E6E1D07B80593A7 /* Pods-LYONE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8J2CWPZLE;
+				INFOPLIST_FILE = LYONE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = None.LYONE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178CB5F720AC0B2B0080DC94 /* Build configuration list for PBXProject "LYONE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178CB60C20AC0B2C0080DC94 /* Debug */,
+				178CB60D20AC0B2C0080DC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178CB60E20AC0B2C0080DC94 /* Build configuration list for PBXNativeTarget "LYONE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178CB60F20AC0B2C0080DC94 /* Debug */,
+				178CB61020AC0B2C0080DC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178CB5F420AC0B2B0080DC94 /* Project object */;
+}

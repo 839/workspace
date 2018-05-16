@@ -1,0 +1,6 @@
+framework module Pods_LYONE {
+  umbrella header "Pods-LYONE-umbrella.h"
+
+  export *
+  module * { export * }
+}

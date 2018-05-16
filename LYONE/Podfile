@@ -1,0 +1,10 @@
+use_frameworks!
+platform :ios,'8.0'
+target "LYONE" do
+pod 'Alamofire', '~>4.7.2'
+pod 'AlamofireObjectMapper', '~>5.0.0'
+pod 'XCGLogger', '~>6.0.2'
+pod 'RxSwift', '~> 4.0'
+pod 'RxCocoa', '~> 4.0'
+pod 'ESTabBarController-swift','~>2.6.2'
+end
