@@ -7,15 +7,23 @@
 //
 
 import UIKit
-
+import XCGLogger
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var mainTabBarVC:UITabBarController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //创建App窗口
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.backgroundColor = UIColor.orange
+        self.window?.makeKeyAndVisible()
+        //设置Window的根视图控制器为自定义的标签栏
+        self.mainTabBarVC = ConfigTabbar.customStyle();
+        self.window?.rootViewController = self.mainTabBarVC;
         return true
     }
 

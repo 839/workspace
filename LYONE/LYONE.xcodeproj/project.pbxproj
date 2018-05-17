@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		174185E320AD13820084B78E /* ConfigTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174185E220AD13820084B78E /* ConfigTabbar.swift */; };
+		174185E520AD16D80084B78E /* ExampleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174185E420AD16D80084B78E /* ExampleNavigationController.swift */; };
 		178CB60020AC0B2B0080DC94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178CB5FF20AC0B2B0080DC94 /* AppDelegate.swift */; };
 		178CB60220AC0B2B0080DC94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178CB60120AC0B2B0080DC94 /* ViewController.swift */; };
 		178CB60520AC0B2B0080DC94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178CB60320AC0B2B0080DC94 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		174185E220AD13820084B78E /* ConfigTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigTabbar.swift; sourceTree = "<group>"; };
+		174185E420AD16D80084B78E /* ExampleNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleNavigationController.swift; sourceTree = "<group>"; };
 		178CB5FC20AC0B2B0080DC94 /* LYONE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYONE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		178CB5FF20AC0B2B0080DC94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		178CB60120AC0B2B0080DC94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,8 +71,10 @@
 		178CB5FE20AC0B2B0080DC94 /* LYONE */ = {
 			isa = PBXGroup;
 			children = (
+				174185E420AD16D80084B78E /* ExampleNavigationController.swift */,
 				178CB5FF20AC0B2B0080DC94 /* AppDelegate.swift */,
 				178CB60120AC0B2B0080DC94 /* ViewController.swift */,
+				174185E220AD13820084B78E /* ConfigTabbar.swift */,
 				17CE524020AC30B70011A199 /* other */,
 				178CB60320AC0B2B0080DC94 /* Main.storyboard */,
 				178CB60620AC0B2C0080DC94 /* Assets.xcassets */,
@@ -250,6 +256,8 @@
 				178CB60220AC0B2B0080DC94 /* ViewController.swift in Sources */,
 				17CE524620AC36C80011A199 /* String+notblank.swift in Sources */,
 				17CE524420AC33E70011A199 /* UIColor+ ColorHexString.swift in Sources */,
+				174185E520AD16D80084B78E /* ExampleNavigationController.swift in Sources */,
+				174185E320AD13820084B78E /* ConfigTabbar.swift in Sources */,
 				178CB60020AC0B2B0080DC94 /* AppDelegate.swift in Sources */,
 				17CE524220AC310D0011A199 /* pch.swift in Sources */,
 			);
@@ -407,6 +415,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -426,6 +435,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
