@@ -14,6 +14,7 @@
 		178CB60520AC0B2B0080DC94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178CB60320AC0B2B0080DC94 /* Main.storyboard */; };
 		178CB60720AC0B2C0080DC94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178CB60620AC0B2C0080DC94 /* Assets.xcassets */; };
 		178CB60A20AC0B2C0080DC94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178CB60820AC0B2C0080DC94 /* LaunchScreen.storyboard */; };
+		17ADA38E20AD503E007BE630 /* TabbarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ADA38D20AD503E007BE630 /* TabbarContentView.swift */; };
 		17CE524220AC310D0011A199 /* pch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE524120AC310D0011A199 /* pch.swift */; };
 		17CE524420AC33E70011A199 /* UIColor+ ColorHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE524320AC33E70011A199 /* UIColor+ ColorHexString.swift */; };
 		17CE524620AC36C80011A199 /* String+notblank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE524520AC36C80011A199 /* String+notblank.swift */; };
@@ -30,6 +31,7 @@
 		178CB60620AC0B2C0080DC94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		178CB60920AC0B2C0080DC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		178CB60B20AC0B2C0080DC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17ADA38D20AD503E007BE630 /* TabbarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarContentView.swift; sourceTree = "<group>"; };
 		17CE524120AC310D0011A199 /* pch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pch.swift; sourceTree = "<group>"; };
 		17CE524320AC33E70011A199 /* UIColor+ ColorHexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ ColorHexString.swift"; sourceTree = "<group>"; };
 		17CE524520AC36C80011A199 /* String+notblank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+notblank.swift"; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				178CB5FF20AC0B2B0080DC94 /* AppDelegate.swift */,
 				178CB60120AC0B2B0080DC94 /* ViewController.swift */,
 				174185E220AD13820084B78E /* ConfigTabbar.swift */,
+				17ADA38D20AD503E007BE630 /* TabbarContentView.swift */,
 				17CE524020AC30B70011A199 /* other */,
 				178CB60320AC0B2B0080DC94 /* Main.storyboard */,
 				178CB60620AC0B2C0080DC94 /* Assets.xcassets */,
@@ -214,6 +217,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -225,6 +229,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -257,6 +262,7 @@
 				17CE524620AC36C80011A199 /* String+notblank.swift in Sources */,
 				17CE524420AC33E70011A199 /* UIColor+ ColorHexString.swift in Sources */,
 				174185E520AD16D80084B78E /* ExampleNavigationController.swift in Sources */,
+				17ADA38E20AD503E007BE630 /* TabbarContentView.swift in Sources */,
 				174185E320AD13820084B78E /* ConfigTabbar.swift in Sources */,
 				178CB60020AC0B2B0080DC94 /* AppDelegate.swift in Sources */,
 				17CE524220AC310D0011A199 /* pch.swift in Sources */,

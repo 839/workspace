@@ -7,4 +7,5 @@ pod 'XCGLogger', '~>6.0.2'
 pod 'RxSwift', '~> 4.0'
 pod 'RxCocoa', '~> 4.0'
 pod 'ESTabBarController-swift','~>2.6.2'
+pod 'pop', '~> 1.0'
 end
