@@ -12,6 +12,7 @@ PODS:
   - RxCocoa (4.1.2):
     - RxSwift (~> 4.0)
   - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
   - XCGLogger (6.0.2):
     - XCGLogger/Core (= 6.0.2)
   - XCGLogger/Core (6.0.2):
@@ -24,6 +25,7 @@ DEPENDENCIES:
   - pop (~> 1.0)
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
+  - SnapKit (~> 4.0.0)
   - XCGLogger (~> 6.0.2)
 
 SPEC CHECKSUMS:
@@ -35,8 +37,9 @@ SPEC CHECKSUMS:
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
   RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   XCGLogger: c9601cae9a8912de34a58666ba931ed3d624dd31
 
-PODFILE CHECKSUM: 9fb6db7d1ca74b1299a48fb91d94e326d6f4043e
+PODFILE CHECKSUM: 31f1a5e12fba6e9fe5d2e8e8e593dc5325ab73ce
 
 COCOAPODS: 1.4.0
